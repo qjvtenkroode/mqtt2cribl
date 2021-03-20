@@ -4,6 +4,7 @@ Little utility app for reading MQTT messages and sending them off to Cribl. Made
 
 ## Variables
 | Environment variable name | Description                                                | Example                                           |
+| ------------------------- | :--------------------------------------------------------: | ------------------------------------------------: |
 | MQTT2CRIBL_ENDPOINT       | endpoint for the Cribl host or cluster                     | http://cribl.service.consul:2300/cribl/_bulk      |
 | NQTT2CRIBL_TOPICS         | topics to subscribe to, separated by a ';'                 | dsmr/json;shellies/+/+/power;shellies/+/+/+/power |
 | MQTT2CRIBL_BROKER         | MQTT broker url                                            | tcp://overseer.homelab:1883                       |
